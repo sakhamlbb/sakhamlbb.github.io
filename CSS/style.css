@@ -1,0 +1,43 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #b1eaf4;
+}
+#contact {
+  background-color: #b1eaf4;
+}
+#language {
+  background-color: #b1eaf4;
+}
+
+/* language */
+.bahasa {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.bahasa2 {
+  float: left;
+}
+
+.bahasa2 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 60px;
+  text-decoration: none;
+}
+
+.bahasa2 a:hover {
+  background-color: #111;
+}
+
+footer {
+  background-color: #cfe2ff;
+}
+
+section {
+  padding-top: 5rem;
+}
