@@ -1,51 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="../CSS/language.css" />
-    <style>
-      p[top] {
-        background-image: aqua;
-      }
-    </style>
+    <title>Portofolio | Sakha Hidayah</title>
   </head>
   <body>
-    <!-- navbar -->
-    <ul>
-      <li><a href="../index.html">Home</a></li>
-      <li><a href="halaman1.html">HTML</a></li>
-      <li><a href="halaman2.html">CSS</a></li>
-      <li><a href="halaman3.html">JAVASCRIPT</a></li>
-      <li><a href="halaman5.html">LARAVEL</a></li>
-      <li><a href="halaman6.html">VUE.JS</a></li>
-    </ul>
-    <!-- end navbar -->
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkcyan">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="halaman1.html">HTML</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="halaman2.html">CSS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="halaman3.html">JAVASCRIPT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="halaman5.html">LARAVEL</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="halaman6.html">VUEJS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--  End Navbar  -->
 
-    <!-- content -->
-<div id="content-wrapper">
-    <div class="row">
-      <div class="leftcolumn">
-        <div class="card">
-          <h2>WHAT IS PHP?</h2>
-          <div class="image-container">
-            <img src="../img/php.jpg" alt="HTML IMAGE" style="height: 180px" />
-            <div class="fakeimg" style="height: 200px">
-              <p>
-                PHP is a free, open-source server-side scripting language widely used in web development. According to the Web Technology Survey, PHP is used by 78.1% of all websites in the world, including Facebook and Wikipedia.
-
-Now, understanding PHP can be an advantage, especially if you are interested in web development. PHP is available on all major OS, such as Linux, Microsoft Windows, and macOS. Most web servers, including Apache and IIS, also support PHP.
-              </p>
-            </div>
+    <!-- Galeri -->
+    <div class="jumbotron text-center mt-3">
+      <img src="../img/php.jpg" alt="HTML" style="width: 200px" />
+      <h1 class="lead mt-3 mb-3" style="font-style: oblique; font-family: lucida sans">WHAT IS PHP?</h1>
+      <div class="container">
+        <div class="row justify-content-center mb-3" style="text-align: left; font-family: Georgia">
+          <div class="col-md-6">
+            <p>
+              PHP is a free, open-source server-side scripting language widely used in web development. According to the Web Technology Survey, PHP is used by 78.1% of all websites in the world, including Facebook and Wikipedia. Now,
+              understanding PHP can be an advantage, especially if you are interested in web development. PHP is available on all major OS, such as Linux, Microsoft Windows, and macOS. Most web servers, including Apache and IIS, also
+              support PHP.
+            </p>
           </div>
         </div>
       </div>
-      <div class="rightcolumn">
-        <div class="card">
-          <h2>My Comic's</h2>
-          <div class="fakeimgg" style="height: 100px"><img src="../imgcomic/arthur.jpg" width="50px"  alt=""><img src="../imgcomic/kaiju8.jpg" width="50px"  alt=""><img src="../imgcomic/sungjinwoo.jpg" width="50px"  alt=""><img src="../imgcomic/windbreaker.jpg" width="50px"  alt=""></div>
-          <p>You can see another article about comic's i've read <a href="../Comic-pages/comic1.html" target="_top">Click here!!</a></p>
-        </div>
-      </div>
     </div>
-  </div>
-  <!-- end content -->
+    <!--  End Galeri -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 </html>
