@@ -1,11 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSS DASAR</title>
+    <link rel="stylesheet" href="../CSS/language.css" />
+    <style>
+      p[top] {
+        background-image: aqua;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hello miaw</h1>
-  </body>
+    <!-- navbar -->
+    <ul>
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="halaman1.html">HTML</a></li>
+      <li><a href="halaman3.html">JAVASCRIPT</a></li>
+      <li><a href="halaman4.html">PHP</a></li>
+      <li><a href="halaman5.html">LARAVEL</a></li>
+      <li><a href="halaman6.html">VUE.JS</a></li>
+    </ul>
+    <!-- end navbar -->
+
+    <!-- content -->
+<div id="content-wrapper">
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>WHAT IS CSS?</h2>
+          <div class="image-container">
+            <img src="../img/css.jpg" alt="HTML IMAGE" style="height: 180px" />
+            <div class="fakeimg" style="height: 200px">
+              <p>
+                CSS stands for cascading style sheets, which is the language used to determine the appearance and format of website pages. With CSS, you can set the font type, text color, and page background.
+
+                CSS is used together with markup languages, such as HTML and XML to build an attractive website that functions well.
+                
+                With CSS, you simply write code once for an HTML element to apply to all pages. Later, when you want to make changes, you also only need to make changes to that one code. Practical, right?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+          <h2>My Comic's</h2>
+          <div class="fakeimgg" style="height: 100px"><img src="../imgcomic/arthur.jpg" width="50px"  alt=""><img src="../imgcomic/kaiju8.jpg" width="50px"  alt=""><img src="../imgcomic/sungjinwoo.jpg" width="50px"  alt=""><img src="../imgcomic/windbreaker.jpg" width="50px"  alt=""></div>
+          <p>You can see another article about comic's i've read <a href="../Comic-pages/comic1.html" target="_top">Click here!!</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end content -->
 </html>
