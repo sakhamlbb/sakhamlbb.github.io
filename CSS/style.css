@@ -1,5 +1,5 @@
 .jumbotron {
-  padding-top: 5rem;
+  padding-top: 8rem;
   background-color: #b1eaf4;
 }
 #contact {
@@ -42,5 +42,9 @@ section {
   padding-top: 7rem;
 }
 #comic {
-  padding-top: 5rem;
+  padding-top: 4rem;
+}
+svg {
+  width: 100%;
+  height: auto;
 }
