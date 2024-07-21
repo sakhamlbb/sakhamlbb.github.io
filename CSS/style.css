@@ -11,6 +11,7 @@
 
 /* language */
 .bahasa {
+  font-style: italic;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,15 +20,16 @@
 }
 
 .bahasa2 {
-  float: left;
+  float: right;
 }
 
 .bahasa2 a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 60px;
+  padding: 10px 10px;
   text-decoration: none;
+  margin-right: 100px;
 }
 
 .bahasa2 a:hover {
@@ -47,4 +49,10 @@ section {
 svg {
   width: 100%;
   height: auto;
+}
+h2 {
+  font-weight: bold;
+}
+p {
+  font-style: italic;
 }
