@@ -19,17 +19,16 @@
   background-color: #333;
 }
 
-.bahasa2 {
+/* .bahasa2 {
   float: right;
-}
+} */
 
 .bahasa2 a {
-  display: block;
+  display: grid;
   color: white;
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
-  margin-right: 100px;
 }
 
 .bahasa2 a:hover {
